@@ -1,4 +1,3 @@
-@font-face{
-    font-family:"맨발의청춘B";
-    src: url(font/210맨발의청춘B.ttf) format("truetype");  
-  }
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
