@@ -87,7 +87,7 @@
     </div>
   </section>
   <section>
-    <div id="about" style="height: 1000px; background-color: #383A3F">
+    <div id="about" style="background-color: #383A3F">
       <div class="container">
         <div class="row">
 
@@ -98,16 +98,17 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container" style="padding-bottom:100px">
         <div class="row">
           <div class="col-lg-6">
             <img src="image/해커톤.jpg" alt="해커톤" id="image">
           </div>
           <div class="col-lg-6" style="text-align:right">
             <h3 style="color:white ; text-align:right">Hack Your Life!</h3>
-            <p style="color:white ; text-align:right">비전공자들도 프로그래밍 기초 지식을 배워 자신만의 웹서비스를 만들 수 있습니다</p>
+            <p style="color:white ; text-align:right">비전공자들도 자신만의 웹서비스를 만들 수 있습니다.</p>
           </div>
           <div class="col-lg-6">
+            <br>
             <h3 style="color:white">온/오프라인 활동을 통한 체계적인 프로그래밍 교육</h3>
             <p style="color:white">자체 개발된 온라인 강의 플랫폼 '클래스라이언' 을 통해 강의를 듣고 과제를 수행합니다. 다양한 오프라인 활동과 병행하여 뜻을 같이하는 동료를 찾고 자신이 만들고자 하는 서비스를 직접 프로그래밍
               하도록 돕습니다. </p>
@@ -116,8 +117,10 @@
               <button type="button" class="btn btn-default">멋쟁이 사자처럼 홈페이지</button>
             </a>
           </div>
+          
           <div class="col-lg-6">
-            <img src="image/해커톤노필터.jpg" alt="코딩" id="image">
+            <br>
+            <img src="image/hackyourlife.jpg" alt="코딩" id="image">
           </div>
         </div>
       </div>
@@ -126,7 +129,7 @@
   </section>
 
   <section>
-    <div id="members" style="height: 800px; background-color: #F68657">
+    <div id="members" style="background-color: #F68657; padding-bottom:100px">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -184,7 +187,7 @@
   </section>
 
   <section>
-    <div id="services" style="height: 1500px; background-color: #AE3D13">
+    <div id="services" style="background-color: #AE3D13">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -198,26 +201,35 @@
         <div class="col-lg-6" id="sugang">
           <h3 class="mt-4">모의 수강 신청 서비스</h3>
           <p>단국대 18학번 새내기들을 위한 모의 수강 신청 페이지입니다</p>
+          <img src="image/nodaji.jpg" id="image" alt="수강신청페이지캡처화면"> 
           <br>
-          <img src="#" alt="수강신청페이지캡처화면">
           <br>
+          <p>
           <a href="#">
             <button type="button" class="btn btn-default">모의 수강신청하러 가기</button>
           </a>
+          ←GO!</p>
         </div>
       </div>
       <div class="container" style="color:white; text-align:right">
-          <h3 class="mt-4" id="festival">단국대 축제 서비스(5월 오픈 예정)</h3>
+          <div class="col-lg-12" id="festival">
+          <h3 class="mt-4">단국대 축제 서비스(5월 오픈 예정)</h3>
           <p>2018년도 단국대 축제 주점 및 이벤트 정보를 한 눈에 알아볼 수 있는 웹서비스입니다.</p>
-          <img src="#" alt="축제서비스이미지">
+          <img src="image/nodaji.jpg" id="image-half" alt="축제서비스이미지">
           <br>
-          <a href="#">
+          <br>
+          <a onclick="alert('준비중입니다.')">
             <button type="button" class="btn btn-default">축제 서비스 바로가기</button>
           </a>
+          </div>
       </div>
-    <div class="container" style="color:white">
-        <h3 class="mt-4" id="nodaji">죽전 노다지</h3>
+      <div class="container" style="color:white; padding-bottom:100px">
+        <div class="col-lg-6" id="nodaji">
+        <h3 class="mt-4">죽전 노다지</h3>
         <p>중고 SNS 거래 장터</p>
+        <br>
+        <img src="image/nodaji.jpg" id="image" alt="죽전노다지">
+        </div>
     </div>
     </div>
   </section>
@@ -303,7 +315,7 @@
   </section>
 
   <section>
-    <div id="contact" style="height: 800px; background-color:#E68619">
+    <div id="contact" style="height: 700px; background-color:#E68619">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -313,7 +325,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container" style="margin-bottom:50px">
         <div class="row">
           <div class="btn-group">
             <a href="http://pf.kakao.com/_mDVAC" class="btn btn-default">카카오톡 플러스 친구</a>
@@ -321,6 +333,29 @@
           </div>
         </div>
       </div>
+  <!--mailgun-->
+  <div class="container">
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">이메일:</label>
+          <input type="email" class="form-control" id="email" placeholder="이메일 주소를 입력해 주세요" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">패스워드:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="비밀번호를 입력해 주세요" name="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">내용:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <button type="submit" class="btn btn-default">제출</button>
+
+      </form>
+    </div>
+
     </div>
   </section>
   </section>

@@ -5,15 +5,18 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- 
+
  * {
   box-sizing: border-box;
  }
 #image{
-  height:90%;
-  width:90%;
+  height:100%;
+  width:100%;
 }
-
+#image-half{
+  height:50%;
+  width:50%;
+}
 #profile-image{
   border-radius: 50%;
   height:50%;
@@ -22,8 +25,8 @@
 #home{
   height: 800px;  
   margin-top:80px;
-  background: repeat center;
-  background-size: auto;
+  background: center;
+  background-size: cover;
 }
 /* Set a background color */
 body {
@@ -667,6 +670,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -2832,7 +2836,7 @@ fieldset[disabled] a.btn {
   background-color:rgb(255, 255, 255);
   border-radius:5px;
   border: 1px solid #ffeabd;
-  
+  margin: 0.25rem;
 }
 
 .btn-lg, .btn-group-lg > .btn {
