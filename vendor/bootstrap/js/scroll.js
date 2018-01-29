@@ -1,4 +1,4 @@
-var speed = 700;    // 스크롤 스피드 수치로 사용할 변수 
+var speed = 800;    // 스크롤 스피드 수치로 사용할 변수 
      
 //로직
 function scrolling(obj){
@@ -16,3 +16,5 @@ $("nav div div ul li a").click(function(){  // 네비게이션 클릭시
     scrolling( direction ); // direction 을 인자로 함수 실행
     return false;   // 본래 이벤트 방지 
 });
+
+

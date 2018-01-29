@@ -63,7 +63,9 @@
       </div>
     </div>
   </nav>
+  
 </head>
+
 
 <body>
 
@@ -79,7 +81,7 @@
             <p style="color: white">멋사 단대 6기 홈페이지입니다.</p>
             <br>
             <a href="#">
-              <button type="button" class="btn btn-default">지원하러 가기!</button>
+              <button type="button" class="btn btn-default"><a onclick="alert('준비중입니다. Schedule탭을 참고해 주세요!')">지원하러 가기!</a></button>
             </a>
           </div>
         </div>
@@ -192,44 +194,45 @@
         <div class="row">
           <div class="col-lg-6">
             <h1 class="mt-4" style="color: white">Services</h1>
-            <p style="color: white">멋사에서 만든 서비스입니다</p>
-            <hr>
+            <p style="color: white">단국대 5기 멋사에서 만든 서비스입니다</p>
+            <br>
           </div>
         </div>
       </div>
       <div class="container" style="color:white">
-        <div class="col-lg-6" id="sugang">
+        <div class="row">
+            <div class="col-lg-6"   style="padding-bottom:100px">
+                <img src="image/sugang.jpg" id="image" alt="수강신청페이지"> 
+             </div>
+        <div class="col-lg-6" id="sugang"   style="padding-bottom:100px">
           <h3 class="mt-4">모의 수강 신청 서비스</h3>
           <p>단국대 18학번 새내기들을 위한 모의 수강 신청 페이지입니다</p>
-          <img src="image/nodaji.jpg" id="image" alt="수강신청페이지캡처화면"> 
-          <br>
-          <br>
-          <p>
           <a href="#">
-            <button type="button" class="btn btn-default">모의 수강신청하러 가기</button>
-          </a>
-          ←GO!</p>
+              <button type="button" class="btn btn-default">모의 수강신청하러 가기</button>
+            </a>
         </div>
-      </div>
-      <div class="container" style="color:white; text-align:right">
-          <div class="col-lg-12" id="festival">
-          <h3 class="mt-4">단국대 축제 서비스(5월 오픈 예정)</h3>
-          <p>2018년도 단국대 축제 주점 및 이벤트 정보를 한 눈에 알아볼 수 있는 웹서비스입니다.</p>
-          <img src="image/nodaji.jpg" id="image-half" alt="축제서비스이미지">
+      
+          <div class="col-lg-6" id="festival"   style="padding-bottom:100px">
+              <h3 class="mt-4">단국대 축제 서비스(5월 오픈 예정)</h3>
+              <p>2018년도 단국대 축제 주점 및 이벤트 정보를 한 눈에 알아볼 수 있는 웹서비스입니다.</p>
+              <a onclick="alert('준비중입니다.')">
+                  <button type="button" class="btn btn-default">축제 서비스 바로가기</button>
+                </a>
+            </div>
+            <div class="col-lg-6" style="padding-bottom:100px">
+            <img src="image/festival.png" id="image" alt="축제서비스">
           <br>
           <br>
-          <a onclick="alert('준비중입니다.')">
-            <button type="button" class="btn btn-default">축제 서비스 바로가기</button>
-          </a>
           </div>
-      </div>
-      <div class="container" style="color:white; padding-bottom:100px">
-        <div class="col-lg-6" id="nodaji">
+          <div class="col-lg-6" style="padding-bottom:100px">
+              <img src="image/nodaji.jpg" id="image" alt="죽전노다지">
+            </div>
+      <div class="col-lg-6" id="nodaji" style="padding-bottom:100px">
         <h3 class="mt-4">죽전 노다지</h3>
         <p>중고 SNS 거래 장터</p>
-        <br>
-        <img src="image/nodaji.jpg" id="image" alt="죽전노다지">
-        </div>
+      </div>
+        
+    </div>
     </div>
     </div>
   </section>
@@ -364,5 +367,11 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/bootstrap/js/scroll.js"></script>
 </body>
+<footer>
+    <pre style="color:rgb(214, 214, 214);font-family:고딕">
 
+    BY 멋쟁이사자처럼 6기 단국대(죽전) 운영진
+    카카오톡 플러스친구: @likeliondku
+    사이트: www.likeliondku.org</pre>
+</footer>
 </html>
